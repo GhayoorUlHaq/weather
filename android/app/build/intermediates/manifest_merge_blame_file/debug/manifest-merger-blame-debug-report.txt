@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mac/React/weather/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac/React/weather/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[:react-native-maps] /Users/mac/React/weather/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+14-->[:react-native-maps] /Users/mac/React/weather/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:6:5-29:19
+22        android:name="com.weather.MainApplication"
+22-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:8:7-38
+23        android:allowBackup="false"
+23-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:12:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:10:7-41
+27        android:label="@string/app_name"
+27-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:9:7-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:11:7-52
+29        android:theme="@style/AppTheme"
+29-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:13:7-38
+30        android:usesCleartextTraffic="true" >
+30-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:7:7-42
+31        <meta-data
+31-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:15:9-17:74
+32            android:name="com.google.android.geo.API_KEY"
+32-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:16:17-62
+33            android:value="AIzaSyCC6eDM48lMq7EjFr-7sAkkAVb966aozHY" />
+33-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:17:17-72
+34
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->/Users/mac/React/weather/android/app/src/debug/AndroidManifest.xml:14:9-86
+35-->/Users/mac/React/weather/android/app/src/debug/AndroidManifest.xml:14:19-83
+36        <activity
+36-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:18:7-28:18
+37            android:name="com.weather.MainActivity"
+37-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:19:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:21:9-86
+39            android:label="@string/app_name"
+39-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:20:9-41
+40            android:launchMode="singleTask"
+40-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:22:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:23:9-51
+42            <intent-filter>
+42-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:24:9-27:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:25:13-65
+43-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:25:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:26:13-73
+45-->/Users/mac/React/weather/android/app/src/main/AndroidManifest.xml:26:23-70
+46            </intent-filter>
+47        </activity> <!-- Needs to be explicitly declared on P+ -->
+48        <uses-library
+48-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+49            android:name="org.apache.http.legacy"
+49-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+50            android:required="false" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+51
+52        <activity
+52-->[com.google.android.gms:play-services-base:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b14783c54f0a0561f542100569b19f88/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b14783c54f0a0561f542100569b19f88/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b14783c54f0a0561f542100569b19f88/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b14783c54f0a0561f542100569b19f88/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e6798b60eadf3bac0dda44bbd7c5242e/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e6798b60eadf3bac0dda44bbd7c5242e/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e6798b60eadf3bac0dda44bbd7c5242e/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+60    </application>
+61
+62</manifest>
