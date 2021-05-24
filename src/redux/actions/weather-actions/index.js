@@ -8,3 +8,13 @@ export const getCities = (cbSuccess, cbFailure) => {
     cbFailure,
   };
 };
+
+// Get cities
+export const getCurrentWeather = (params, cbSuccess, cbFailure) => {
+  return {
+    type: TYPES.CURRENT_WEATHER_API_REQUEST,
+    params,
+    cbSuccess,
+    cbFailure,
+  };
+};

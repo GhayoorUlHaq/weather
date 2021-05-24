@@ -206,6 +206,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="white">#FFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -743,6 +744,7 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>

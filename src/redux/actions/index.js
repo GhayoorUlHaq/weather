@@ -1,1 +1,1 @@
-export {getCities} from './weather-actions';
+export {getCities, getCurrentWeather} from './weather-actions';

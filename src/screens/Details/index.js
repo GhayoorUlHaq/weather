@@ -1,14 +1,11 @@
 import React, {useEffect} from 'react';
-import {View, StyleSheet, Text, Image} from 'react-native';
-import MapView, {PROVIDER_GOOGLE} from 'react-native-maps';
+import {View, StyleSheet, Text, Image, TouchableOpacity} from 'react-native';
+import MapView from 'react-native-maps';
+
 import {WP, HP, fontSize} from '../../utils';
 const Details = ({navigation, route}) => {
-  console.log(
-    'from detial',
-    `http://openweathermap.org/img/wn/${route.params.data?.weather[0]?.icon}@2x.png`,
-  );
-
   useEffect(() => {}, []);
+
   return (
     <View style={styles.container}>
       <MapView
